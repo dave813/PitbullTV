@@ -3,6 +3,19 @@ body {
 }
 
 .homepage {
+	width: 1000px;
+	min-height: 1000px;
 	margin: auto;
+	background-color: #5aaded;
+	margin-top: 0px;
 }
 
+.headline {
+	height: 100px;
+	width: 100%;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
