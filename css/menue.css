@@ -1,8 +1,37 @@
 .headlinemenue {
-	position: relative;
+	float: left;
 	margin: auto;
-	height: 35px;
-	top: 0px;
-	background-color: #FFFFFF;
-	left: 200px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.headlinemenuepoint {
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.headlinemenuepoint:hover {
+	text-decoration: underline;
+}
+
+#blue {
+	color: #5aaded;
+}
+#lila {
+	color: #aa00ff;
+}
+#red {
+	color: #ff0000;
+}
+#orange {
+	color: #ff8300;
+}
+
+ul {
+	list-style: none;
+	display: inline;
+}
+
+li {
+	float: left;
 }

@@ -2,7 +2,6 @@
 	font-family: Arial;
 }
 
-
 .headw {
 	color: #FFFFFF;
 	text-align: center;
@@ -16,5 +15,12 @@
 .headblue {
 	font-family: Arial;
 	color: #5aaded;
-	font-size: 85px;
+	font-size: 100px;
 }
+
+.headlinemenuepoint {
+	font-family: Arial;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
