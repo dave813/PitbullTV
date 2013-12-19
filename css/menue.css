@@ -1,3 +1,4 @@
+/*Headlinemenue*/
 .headlinemenue {
 	float: left;
 	margin: auto;
@@ -41,6 +42,21 @@ li {
 }
 
 .active {
-border-radius: 5px;
+	border-radius: 5px;
 	border: 2px #5AADED solid;
 }
+
+/*Contentmenue*/
+
+.contentmenue {
+	
+}
+
+.contentmenuepoint {
+	
+}
+
+.contentmenuepointactive {
+	
+}
+
