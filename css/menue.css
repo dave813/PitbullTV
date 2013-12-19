@@ -16,15 +16,19 @@
 
 #blue {
 	color: #5aaded;
+	padding: 6px;
 }
 #lila {
 	color: #aa00ff;
+	padding: 6px;
 }
 #red {
 	color: #ff0000;
+	padding: 6px;
 }
 #orange {
 	color: #ff8300;
+	padding: 6px;
 }
 
 ul {
@@ -34,4 +38,9 @@ ul {
 
 li {
 	float: left;
+}
+
+.active {
+border-radius: 5px;
+	border: 2px #5AADED solid;
 }
