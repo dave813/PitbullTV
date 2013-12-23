@@ -34,7 +34,9 @@
 	color: #FFFFFF;
 	font-size: 26px;
 }
-
+.contentmenuepointactive a:hover {
+	text-decoration: underline;
+}
 
 /*Allgemein*/
 .white {
