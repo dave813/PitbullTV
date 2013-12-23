@@ -26,4 +26,19 @@
 
 .contentmenue {
 	font-family: Arial;
+	color: #FFFFFF;
+}
+
+.contentmenuepointactive a {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 26px;
+}
+
+
+/*Allgemein*/
+.white {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 26px;
 }
