@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="js/ajaxnav.js"></script>
+
 		<link rel="stylesheet" href="css/master.css" type="text/css" />
 		<link rel="stylesheet" href="css/fonts.css" type="text/css"  />
 		<link rel="stylesheet" href="css/menue.css" type="text/css" />
@@ -48,24 +51,42 @@
 						</div>
 					</li>
 					<li>
-						<div class="contentmenuepoint">
+						<div id="contentmenuepointgames" class="contentmenuepoint">
 							<div class="contentmenuepointtext">
 								<a href="play/games.html">Games</a>
 							</div>
 						</div>
+						<div class="contentmenuedropdown" id="games">
+							<div class="contentmenuedropdowntitle">
+								<font class="lmiddleb">Aktuelle Let's Plays</font>
+							</div>
+							<hr />
+							<div class="contentmenuedropdowncontent">
+								<div class="game">
+									<img src="play/img/game.jpg" />
+								</div>
+							</div>
+						</div>
+
 					</li>
 					<li>
-						<div class="contentmenuepoint">
+						<div id="contentmenuepointangezockt" class="contentmenuepoint">
 							<div class="contentmenuepointtext">
 								<a href="play/angezockt.html">Angezockt</a>
 							</div>
 						</div>
+						<div class="contentmenuedropdown" id="angezockt">
+
+						</div>
 					</li>
 					<li>
-						<div class="contentmenuepoint">
+						<div id="contentmenuepointbsp" class="contentmenuepoint">
 							<div class="contentmenuepointtext">
 								<a href="play/beispiel.html">Beispiel</a>
 							</div>
+						</div>
+						<div class="contentmenuedropdown" id="bsp">
+
 						</div>
 					</li>
 				</ul>
