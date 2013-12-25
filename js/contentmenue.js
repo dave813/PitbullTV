@@ -1,12 +1,35 @@
 $(document).ready(function() {
+	
+	$(".contentmenuepoint").mouseover(function() {
+		$(".contentmenuepoint").css("heigth" , "70px");
+	});
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 //Games
 
 	$("#contentmenuepointgames").mouseover(function() {
 		$("#games").css("visibility", "visible");
 	});
 
-	$(".d").mouseout(function() {
+	$("li").mouseleave(function() {
 		$("#games").css("visibility", "hidden");
 	});
 
@@ -15,7 +38,7 @@ $(document).ready(function() {
 		$("#angezockt").css("visibility", "visible");
 	});
 
-	$("#contentmenuepointangezockt").mouseout(function() {
+	$("li").mouseleave(function() {
 		$("#angezockt").css("visibility", "hidden");
 	});
 	
@@ -24,7 +47,7 @@ $(document).ready(function() {
 		$("#bsp").css("visibility", "visible");
 	});
 
-	$("#contentmenuepointbsp").mouseout(function() {
+	$("li").mouseleave(function() {
 		$("#bsp").css("visibility", "hidden");
 	});
 
