@@ -1,0 +1,12 @@
+/*Slider*/
+.slider {
+	position: absolute;
+	width: 1000px;
+	height: 360px;
+	background-color: #AA00FF;
+	z-index: 1;
+}
+
+.haus {
+	opacity: 0;
+}
