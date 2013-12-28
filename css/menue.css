@@ -42,8 +42,7 @@ li {
 }
 
 .active {
-	border-radius: 5px;
-	border: 2px #5AADED solid;
+	border-bottom: dashed #207CE5 3px;
 }
 
 /*Contentmenue*/

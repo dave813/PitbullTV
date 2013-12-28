@@ -1,5 +1,6 @@
 body {
-	background-color: #161616;
+
+	background-repeat: repeat;
 }
 
 a:link {
@@ -20,7 +21,7 @@ a:active {
 }
 
 .content {
-	
+
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
