@@ -30,6 +30,14 @@
 	font-size: 26px;
 }
 
+.lmiddlegrey {
+	color: #a4a4a4;
+	text-align: left;
+	font-size: 26px;
+	
+	
+}
+
 /*Spezifisch*/
 .headlinemenuepoint {
 	font-family: Arial;
@@ -50,4 +58,34 @@
 .contentmenuepointactive a:hover {
 	text-decoration: underline;
 }
+
+.contentleft.lmiddlegrey {
+	padding: 10px;
+}
+
+.folgedesctitle {
+    letter-spacing: -1px;
+    
+  
+	font-weight: 600;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+.folgedesc a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 

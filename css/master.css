@@ -20,7 +20,7 @@ a:active {
 	text-decoration: none;
 }
 
-.content {
+.page {
 
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -65,3 +65,69 @@ a:active {
 	margin-top: -10px;
 }
 
+.content {
+	margin-top: 360px;
+	width: 1000px;
+	height: 100%;
+}
+
+.contentleft {
+	z-index: 1000;
+	float: left;
+	width: 320px;
+	min-height: 400px;
+	background: #FFFFFF;
+	border-right: 2px solid #CCCCCC;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contentright {
+	padding-left: 10px;
+	padding-right: 10px z-index : 10001;
+	min-height: 400px;
+	width: 638px;
+	float: left;
+	background: #FFFFFF;
+}
+
+.contenttitle {
+	padding: 10px;
+	padding-left: 0px;
+}
+
+.folge {
+	
+	height: 120px;
+	padding-bottom: 10px;
+}
+
+.folgepic {
+cursor: pointer;
+	width: 270px;
+	height: 120px;
+	background: grey;
+	float: left;
+	border: 2px #FFFFFF solid;
+	-moz-box-shadow: 0 0 2px 2px #888;
+	-webkit-box-shadow: 0 0 2px 2px #888;
+	box-shadow: 0 0 2px 2px #888;
+}
+.folgepic:hover {
+	opacity: 0.9;
+}
+
+.folgedesc {
+
+	padding-left: 10px;
+	float: left;
+}
+
+.folgedesctitle {
+	width: 300px;
+	padding-bottom: 10px;
+}
+.folgedesctext {
+	
+	width: 300px;
+}
