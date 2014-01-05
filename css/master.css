@@ -69,13 +69,14 @@ a:active {
 	margin-top: 360px;
 	width: 1000px;
 	height: 100%;
+	clear: both;
 }
 
 .contentleft {
 	z-index: 1000;
 	float: left;
 	width: 320px;
-	min-height: 400px;
+	min-height: 200px;
 	background: #FFFFFF;
 	border-right: 2px solid #CCCCCC;
 	padding-left: 10px;
@@ -85,7 +86,7 @@ a:active {
 .contentright {
 	padding-left: 10px;
 	padding-right: 10px z-index : 10001;
-	min-height: 400px;
+	min-height: 200px;
 	width: 638px;
 	float: left;
 	background: #FFFFFF;
@@ -97,13 +98,13 @@ a:active {
 }
 
 .folge {
-	
+
 	height: 120px;
 	padding-bottom: 10px;
 }
 
 .folgepic {
-cursor: pointer;
+	cursor: pointer;
 	width: 270px;
 	height: 120px;
 	background: grey;
@@ -128,6 +129,40 @@ cursor: pointer;
 	padding-bottom: 10px;
 }
 .folgedesctext {
-	
+
 	width: 300px;
 }
+
+.ytvideo {
+	position: absolute;
+	top: 246px;
+}
+
+.episodemenue {
+	clear: both;
+	border-bottom: solid 2px grey;
+}
+
+.episodemenuepic {
+	margin-left: 15px;
+	position: static;
+	margin-top: 220px;
+	cursor: pointer;
+	width: 189px;
+	height: 108px;
+	background: grey;
+	float: left;
+	border: 2px #FFFFFF solid;
+	-moz-box-shadow: 0 0 2px 2px #888;
+	-webkit-box-shadow: 0 0 2px 2px #888;
+	box-shadow: 0 0 2px 2px #888;
+}
+.episodemenuepic:hover {
+	opacity: 0.9;
+	
+}
+
+.ytvideowithmenue {
+	clear: both;
+}
+
