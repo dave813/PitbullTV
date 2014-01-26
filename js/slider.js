@@ -13,7 +13,7 @@ var bildoben = 0;
 var bildunten = 1;
 var op = 1;
 
-var images = new Array('play/slider/ha.jpg', 'play/slider/b.jpg', 'play/slider/bild3.jpg', 'play/slider/bild4.jpg');
+var images = new Array('play/slider/ha.jpg', 'play/slider/b.jpg');
 var lang = images.length;
 
 function slider() {
