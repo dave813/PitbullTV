@@ -105,8 +105,8 @@ a:active {
 
 .folgepic {
 	cursor: pointer;
-	width: 270px;
-	height: 120px;
+	width: 189px;
+	height: 108px;
 	background: grey;
 	float: left;
 	border: 2px #FFFFFF solid;
@@ -130,7 +130,7 @@ a:active {
 }
 .folgedesctext {
 
-	width: 300px;
+	width: 350px;
 }
 
 .ytvideo {
@@ -138,31 +138,13 @@ a:active {
 	top: 246px;
 }
 
-.episodemenue {
-	clear: both;
-	border-bottom: solid 2px grey;
-}
-
-.episodemenuepic {
-	margin-left: 15px;
-	position: static;
-	margin-top: 220px;
-	cursor: pointer;
-	width: 189px;
-	height: 108px;
-	background: grey;
-	float: left;
-	border: 2px #FFFFFF solid;
-	-moz-box-shadow: 0 0 2px 2px #888;
-	-webkit-box-shadow: 0 0 2px 2px #888;
-	box-shadow: 0 0 2px 2px #888;
-}
-.episodemenuepic:hover {
-	opacity: 0.9;
-	
-}
 
 .ytvideowithmenue {
 	clear: both;
+}
+
+.contentdown {
+	border-top: #CCCCCC solid 2px;
+	margin-top: 350px;
 }
 

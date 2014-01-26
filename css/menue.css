@@ -174,4 +174,71 @@ li {
 .game:hover {
 	border: 2px 207ce5 solid;
 }
+/*EpisodenMenue*/
+.episodemenue {
+	clear: both;
+	border-bottom: solid 2px grey;
+}
+
+
+
+.episodemenuepic {
+	opacity: 0.7;
+	margin-left: 15px;
+	position: static;
+	margin-top: 220px;
+	cursor: pointer;
+	width: 189px;
+	height: 108px;
+	background: grey;
+	float: left;
+	border: 2px #FFFFFF solid;
+	-moz-box-shadow: 0 0 2px 2px #888;
+	-webkit-box-shadow: 0 0 2px 2px #888;
+	box-shadow: 0 0 2px 2px #888;
+}
+.episodemenuepic:hover {
+	opacity: 1;
+}
+
+.episodemenuecurrent .episodemenuepic {
+	opacity: 1;	
+}
+
+.episodedesc {
+	position: absolute;
+	opacity: 0.8;
+	background-color: #000000;
+	width: 189px;
+	height: 15px;
+	margin-top: 93px;
+	z-index:100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

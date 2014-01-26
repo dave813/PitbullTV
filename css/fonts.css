@@ -12,11 +12,13 @@
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 60px;
+	font-family: Arial;
 }
 .headb {
 	color: #000000;
 	text-align: center;
 	font-size: 60px;
+	font-family: Arial;
 }
 .headblue {
 	font-family: Arial;
@@ -28,13 +30,21 @@
 	color: #000000;
 	text-align: left;
 	font-size: 26px;
+	font-family: Arial;
 }
 
 .lmiddlegrey {
 	color: #a4a4a4;
 	text-align: left;
 	font-size: 26px;
-	
+	font-family: Arial;
+}
+
+.lsmallb {
+	color: #000000;
+	text-align: left;
+	font-size: 14px;
+	font-family: Arial;
 	
 }
 
@@ -59,9 +69,7 @@
 	text-decoration: underline;
 }
 
-.contentleft.lmiddlegrey {
-	padding: 10px;
-}
+
 
 .folgedesctitle {
     letter-spacing: -1px;
@@ -76,7 +84,13 @@
 	text-decoration: underline;
 }
 
-
+.episodedesc {
+	font-family: Arial;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	
+}
 
 
 
