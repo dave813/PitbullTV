@@ -202,7 +202,8 @@ li {
 }
 
 .episodemenuecurrent .episodemenuepic {
-	opacity: 1;	
+	opacity: 1;
+	border: 2px #5aaded solid;
 }
 
 .episodedesc {
