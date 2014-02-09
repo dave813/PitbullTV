@@ -2,7 +2,7 @@
 .white {
 	font-family: Arial;
 	color: #FFFFFF;
-	font-size: 26px;
+	font-size: 20px;
 }
 .homepage {
 	font-family: Arial;
@@ -23,7 +23,7 @@
 .headblue {
 	font-family: Arial;
 	color: #5aaded;
-	font-size: 80px;
+	font-size: 68px;
 }
 
 .lmiddleb {
@@ -63,7 +63,7 @@
 .contentmenuepointactive a {
 	font-family: Arial;
 	color: #FFFFFF;
-	font-size: 26px;
+	font-size: 22px;
 }
 .contentmenuepointactive a:hover {
 	text-decoration: underline;
@@ -92,8 +92,16 @@
 	
 }
 
+.headlineundermenuepoint a{
+	color: #6E6E6E;
+	font-family: Arial;
+	font-size: 14px;
+}
 
 
+.headlineundermenuepoint a:hover {
+	color:#BDBDBD;
+}
 
 
 
