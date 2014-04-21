@@ -14,7 +14,7 @@
 	font-size: 60px;
 	font-family: Arial;
 }
-.headb {
+.headg {
 	color: #bababa;
 	text-align: center;
 	font-size: 60px;
@@ -27,7 +27,7 @@
 }
 
 .lmiddleb {
-	color: #bababa;
+	color: #000000;
 	text-align: left;
 	font-size: 26px;
 	font-family: Arial;
@@ -40,7 +40,7 @@
 	font-family: Arial;
 }
 
-.lsmallb {
+.lsmallgrey {
 	color: #bababa;
 	text-align: left;
 	font-size: 14px;
@@ -69,7 +69,9 @@
 	text-decoration: underline;
 }
 
-
+.contentmenuepointtext {
+	color: #000000;
+}
 
 .folgedesctitle {
     letter-spacing: -1px;
