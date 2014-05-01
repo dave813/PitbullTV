@@ -1,19 +1,19 @@
 /*Nur zum Vorladen der Bilder (nicht erforderlich)*/
 /*Nur die Pfade ändern*/
 var bild1 = new Image();
-bild1.src = 'play/slider/ha.jpg';
+bild1.src = 'play/slider/penis.jpg';
 var bild2 = new Image();
 bild2.src = 'play/slider/b.jpg';
 var bild3 = new Image();
-bild3.src = 'play/slider/bild3.jpg';
+bild3.src = 'play/slider/penis.jpg';
 var bild4 = new Image();
-bild4.src = 'play/slider/bild4.jpg';
+bild4.src = 'play/slider/penis.jpg';
 
 var bildoben = 0;
 var bildunten = 1;
 var op = 1;
 
-var images = new Array('play/slider/ha.jpg', 'play/slider/b.jpg');
+var images = new Array('play/slider/4.jpg', 'play/slider/b.jpg', 'play/slider/5.jpg', 'play/slider/1.jpg', 'play/slider/2.jpg', 'play/slider/3.jpg');
 var lang = images.length;
 
 function slider() {
@@ -34,7 +34,7 @@ function slider() {
 		bildoben = 0;
 		bildunten = 1;
 	}
-	window.setTimeout("slidemove()",/*Zeit*/ 6000);
+	window.setTimeout("slidemove()",/*Zeit*/ 7000);
 }
 
 function slidemove() {

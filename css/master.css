@@ -74,13 +74,17 @@ a:active {
 	margin-top: -10px;
 }
 
-.content {
+.homecontent {
 	margin-top: 360px;
 	width: 1000px;
 	height: 100px;
 	clear: both;
 }
-
+.content {
+	width: 1000px;
+	height: 100px;
+	clear: both;
+}
 .contentleft {
 	z-index: 1000;
 	float: left;
@@ -112,6 +116,10 @@ a:active {
 	padding-bottom: 10px;
 }
 
+.folgepic img {
+	width: 189px;
+	height: 108px;
+}
 .folgepic {
 	cursor: pointer;
 	width: 189px;
@@ -165,4 +173,8 @@ a:active {
 -webkit-box-shadow: 0 0 4px #888;
 box-shadow: 0 0 4px #888;
 	
+}
+.cover img {
+	width: 240px;
+	height: 329px;
 }

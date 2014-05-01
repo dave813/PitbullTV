@@ -1,104 +1,71 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<!--Allgemein-->
 		<script type="text/javascript" src="../js/jquery-2.0.3.min.js"></script>
-		<script type="text/javascript" src="../js/contentmenue.js"></script>
-
 		<link rel="stylesheet" href="../css/master.css" type="text/css" />
 		<link rel="stylesheet" href="../css/fonts.css" type="text/css"  />
+
+		<!--Menue-->
+		<script type="text/javascript" src="../js/contentmenue.js"></script>
 		<link rel="stylesheet" href="../css/menue.css" type="text/css" />
 
+		<!--Slider-->
+		<script type="text/javascript" src="../js/slider.js"></script>
+		<link rel="stylesheet" href="../css/slider.css" type="text/css" />
+
+		<!--Background-->
 		<style>
 			body {
-				background: #333 url(../img/back.jpg);
+	background: #333 url(../img/back.jpg);
+	background-color: #006;
 			}
 		</style>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-		<title>PitbullTV</title>
+		<title>PitBullTV</title>
 	</head>
-	<body>
-		<div class="headline">
-			<div class="headlinecontent">
-				<span id="headlinecontenttext" class="headblue">PitbullTV</span>
-				<div class="headlinemenue">
-					<ul>
-						<li>
-							<div class="headlinemenuepoint">
-								<a id="blue" href="../index.html">LET'S PLAY</a>
-							</div>
-						</li>
-						<li>
-							<div class="headlinemenuepoint">
-								<a id="lila" href="../news/news.html">NEWS</a>
-							</div>
-						</li>
-						<li>
-							<div class="headlinemenuepoint">
-								<a id="red" class="active" href="../upload/upload.html">UPLOADPLAN</a>
-							</div>
-						</li>
-						<li>
-							<div class="headlinemenuepoint">
-								<a id="orange" href="../specials/specials.html">SPECIALS</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+	<body onload="slider()">
 		<div class="page">
 			<div class="contentmenue">
-				<ul class="white">
+			  <ul class="white">
 					<li>
 						<div class="contentmenuepointactive">
 							<div class="contentmenuepointactivetext">
-								<a href="upload.html">UPLOADPLAN</a>
+								<a href="upload.html">Uploadkalender</a>
 							</div>
 						</div>
 					</li>
 					<li class="contentmenuepointli">
 						<div id="contentmenuepointgames" class="contentmenuepoint">
 							<div class="contentmenuepointtext">
-								<a href="play/games.html">Games</a>
+								<a href="../index.html"><font class="contentmenuepointtext">Home</font></a>
 							</div>
 						</div>
-						<div class="contentmenuedropdown" id="games">
-							<div class="contentmenuedropdowntitle">
-								<font class="lmiddleb">Aktuelle Let's Plays</font>
-							</div>
-							<hr />
-							<div class="contentmenuedropdowncontent">
-								<div class="game">
-									<img src="play/img/game.jpg" />
-								</div>
-							</div>
-						</div>
+						
 
 					</li>
 					<li class="contentmenuepointli">
 						<div id="contentmenuepointangezockt" class="contentmenuepoint">
-							<div class="contentmenuepointtext">
-								<a href="play/angezockt.html">Angezockt</a>
-							</div>
+							<a href="../play/games.html"><div class="contentmenuepointtext">Projekte</div></a>
 						</div>
-						<div class="contentmenuedropdown" id="angezockt">
-
-						</div>
+						
 					</li>
-					<li class="contentmenuepointli">
+				<li class="contentmenuepointli">
 						<div id="contentmenuepointbsp" class="contentmenuepoint">
 							<div class="contentmenuepointtext">
-								<a href="play/beispiel.html">Beispiel</a>
+								<a href="http://www.eod-clan.de/"><font class="contentmenuepointtext">Forum</font></a>
 							</div>
 						</div>
-						<div class="contentmenuedropdown" id="bsp">
-
-						</div>
-					</li>
+						
+				  </li>
 				</ul>
 
+			</div>
+			
+			<div class="content">
+				<font class="lmiddlegrey">Uploadkalender</font>
 			</div>
 		</div>
 	</body>

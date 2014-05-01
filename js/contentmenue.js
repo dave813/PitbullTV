@@ -10,7 +10,7 @@ $(document).ready(function() {
 		
 	});
 	
-	//Games
+/*	//Games
 
 	$("#contentmenuepointgames").mouseover(function() {
 		$("#games").css("visibility", "visible");
@@ -36,6 +36,6 @@ $(document).ready(function() {
 
 	$("li").mouseleave(function() {
 		$("#bsp").css("visibility", "hidden");
-	});
+	});*/
 
 });
